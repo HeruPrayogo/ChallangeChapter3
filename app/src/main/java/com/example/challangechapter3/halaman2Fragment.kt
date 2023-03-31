@@ -33,11 +33,6 @@ class halaman2Fragment() : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.kata.layoutManager = LinearLayoutManager(context)
         val listKataAdapter = KataAdapter(kumpulanKata)
-        listKataAdapter.onItemClick = {
-            val pindahweb = Intent(Intent.ACTION_VIEW)
-            pindahweb.data = Uri.parse("https://www.google.com/search?q=${getlisthuruf()}")
-            findNavController().navigate(NavDeepLinkRequest(pindahweb))
-        }
         getlisthuruf()
         binding.kata.adapter = listKataAdapter
         kumpulanKata.clear()

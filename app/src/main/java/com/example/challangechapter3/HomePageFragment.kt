@@ -30,10 +30,6 @@ class HomePageFragment : Fragment(){
         binding.huruf.layoutManager = LinearLayoutManager(context)
         val kumpulanKataFrag = halaman2Fragment()
         val listAbjadAdapter = HurufAdapter(kumpulanHuruf)
-        listAbjadAdapter.onItemClick = {
-
-            findNavController().navigate(R.id.action_homePageFragment_to_halaman2Fragment)
-        }
         binding.huruf.adapter = listAbjadAdapter
         kumpulanHuruf.clear()
         kumpulanHuruf.addAll(getlisthuruf())
