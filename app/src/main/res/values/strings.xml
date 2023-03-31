@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ChallangeChapter3</string>
+
+
+    <string-array name="dataHuruf">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+
+    <string-array name="dataKata">
+        <item>Amerika</item>
+        <item>Amsterdam</item>
+        <item>Antartika</item>
+        <item>Australia</item>
+
+        <item>Boneka</item>
+        <item>Binatang</item>
+        <item>Bulan</item>
+        <item>Bola</item>
+
+        <item>Cacing</item>
+        <item>Cinta</item>
+        <item>Coklat</item>
+        <item>Cantik</item>
+
+        <item>Dunia</item>
+        <item>Durian</item>
+        <item>Dosa</item>
+        <item>Desa</item>
+
+        <item>Elang</item>
+        <item>Empati</item>
+        <item>Endeavour</item>
+        <item>Enoki</item>
+
+        <item>Fifa</item>
+        <item>Flamingo</item>
+        <item>Font</item>
+        <item>File</item>
+
+        <item>Gagal</item>
+        <item>Gigih</item>
+        <item>Gigi</item>
+        <item>Giselle</item>
+
+        <item>Harimau</item>
+        <item>Hilang</item>
+        <item>Hening</item>
+        <item>Home</item>
+
+        <item>Illness</item>
+        <item>Ionia</item>
+        <item>Ingin</item>
+        <item>Inter</item>
+
+        <item>Juara</item>
+        <item>Joni</item>
+        <item>Jhon</item>
+        <item>Jill</item>
+    </string-array>
+
+</resources>
