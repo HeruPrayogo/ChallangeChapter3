@@ -28,7 +28,6 @@ class HurufAdapter(var listHuruf: ArrayList<ListHuruf>, var onItemClick: ((ListH
             override fun onClick(p0: View?) {
                 val transaction = p0?.context as AppCompatActivity
                 val bundle = Bundle()
-                //
                 bundle.putString("HURUF", a)
                 val kumpulanKataFrag = halaman2Fragment()
                 kumpulanKataFrag.arguments = bundle
